@@ -1,0 +1,66 @@
+
+{
+  "version": "v2",
+  "content": {
+    "messages": [
+      {
+        "id": "welcome_message_gym",
+        "message": {
+          "text": "Olá! Bem-vindo à [Nome da Academia]. Eu sou o [Nome do Assistente Virtual]. Como posso te ajudar hoje?",
+          "quick_replies": [
+            {
+              "title": "Gostaria de saber sobre os planos",
+              "payload": "plans_info"
+            },
+            {
+              "title": "Quero agendar uma aula experimental",
+              "payload": "book_trial"
+            },
+            {
+              "title": "Quais são os horários de funcionamento?",
+              "payload": "operation_hours"
+            },
+            {
+              "title": "Tenho outra dúvida",
+              "payload": "other_question_gym"
+            }
+          ]
+        }
+      },
+      {
+        "id": "plans_info",
+        "message": {
+          "text": "Oferecemos alguns planos bem flexíveis: - Plano Mensal - Plano Trimestral - Plano Anual Quer saber mais detalhes sobre algum deles?",
+          "quick_replies": [
+            {
+              "title": "Sim, me conte mais",
+              "payload": "yes_plans_details"
+            },
+            {
+              "title": "Não, só estou explorando",
+              "payload": "no_plans_details"
+            }
+          ]
+        }
+      },
+      {
+        "id": "book_trial",
+        "message": {
+          "text": "Ótimo! Vamos marcar sua aula experimental gratuita. Pode me dizer seu nome, telefone e o dia que você prefere?"
+        }
+      },
+      {
+        "id": "operation_hours",
+        "message": {
+          "text": "Nosso horário de funcionamento é: - Segunda a sexta: 6h às 22h - Sábado: 8h às 18h - Domingo: 8h às 14h Precisa de mais alguma coisa?"
+        }
+      },
+      {
+        "id": "other_question_gym",
+        "message": {
+          "text": "Claro! Me conta qual é a sua dúvida e eu te ajudo."
+        }
+      }
+    ]
+  }
+}
